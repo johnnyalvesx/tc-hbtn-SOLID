@@ -1,5 +1,3 @@
-package ocp;
-
 public class Motorcycle extends Vehicle implements IVehicleMotorcycle {
 
     public Motorcycle(String color, String year, double engine) {

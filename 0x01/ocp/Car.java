@@ -1,5 +1,3 @@
-package ocp;
-
 public class Car extends Vehicle implements IVehicleCar {
 
     public Car(String color, String year, double engine, int seats) {
