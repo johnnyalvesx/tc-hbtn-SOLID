@@ -28,12 +28,12 @@ public class Name {
     };
 
     // Uma palavra por conceito
-    // B
+    // A
     public saveUser(){};
 
-    createAccount(){};
+    saveAccount(){};
 
-    generateContract(){};
+    saveContract(){};
 
     // Use constants, enums instead of magic numbers, abbreviations
     // B
