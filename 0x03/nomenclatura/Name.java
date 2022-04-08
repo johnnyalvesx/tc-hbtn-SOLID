@@ -20,12 +20,10 @@ public class Name {
     public URL url;
 
     // Classe possui nomes próprios, funções devem ter verbos
-    // A
-    public class TableRepresenter {
-    };
-
-    public void saveCar() {
-    };
+    //A
+    public void saveCar(){};
+    //B
+    public class TableRepresent{}; 
 
     // Uma palavra por conceito
     // A
