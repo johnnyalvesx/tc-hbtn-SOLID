@@ -21,6 +21,15 @@ public class Functions {
     public void saveUser(User user) {
     };
 
+    //  No side effects
+    public User saveUser(User user){
+        // if statement should be avoided, why saveUser action is changing role of a user?
+        if(user.isAdmin){
+            user.setRole(user);
+        }
+        return userRepository.save(user);
+    }
+
     // Evite duplicados, extraindo para novos métodos
     // B
     public Environment getEnvironment() {
