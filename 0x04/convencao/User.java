@@ -12,6 +12,8 @@ public class User {
 
 // função que coleta todos os users
 
-        public getAllUsers() {
+        public getUsers() {
             return [];
         }
+    }
+}
